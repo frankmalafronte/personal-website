@@ -1,0 +1,142 @@
+
+// Importing variables
+@import './variables.scss';
+
+// Importing Bulma from node_modules
+@import '~bulma/bulma.sass';
+
+body {
+  font-family: $font;
+}
+
+.header {
+  display:flex;
+}
+
+.section {
+  h1 {
+    color: $headerColor;
+  }
+  h2 {
+    margin-bottom: 0.3rem;
+  }
+  h2:hover {
+    color: $headerColor;
+  }
+  h3 {
+    color: $headerColor;
+  }
+
+  button {
+    margin-right: 2rem;
+    margin-top: 1.2rem;
+  }
+  img {
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.hero-body {
+  h1 {
+    color: $headerColor;
+  }
+}
+
+.gradientBg {
+  display: flex;
+  background: radial-gradient(#ffffff, #e5fdff);
+  background-size: 300% 300%;
+  -webkit-animation: Gradient 7s ease infinite;
+  -moz-animation: Gradient 7s ease infinite;
+  animation: Gradient 7s ease infinite;
+}
+
+.navbar {
+  a {
+    margin-right: 1.2rem;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: $headerColor;
+  }
+}
+
+.container {
+  h1 {
+    margin-bottom: 1rem;
+  }
+  a {
+    color: $grey-dark;
+  }
+  a:hover {
+    color: $headerColor;
+  }
+}
+
+.email {
+  margin-top: 1.2rem;
+  button {
+    font-family: $font;
+  }
+}
+
+.footer {
+  background: white;
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.2rem;
+  span {
+    margin-right: 1.2rem;
+  }
+  a {
+    color: $grey-dark;
+  }
+  a:hover {
+    color: $headerColor;
+  }
+  .icon a:hover {
+    border: 2px solid $headerColor;
+  }
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

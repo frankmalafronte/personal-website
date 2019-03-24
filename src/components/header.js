@@ -1,42 +1,25 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import './style.scss'
+import Email from './email'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = () => (
+  <section className="hero gradientBg is-halfheight-with-navbar">
+    <div className="hero-body">
+      <div className="container left">
+        <article className="media">
+          <div className="media-content">
+            <div className="content column is-half" >
+              <h1 className="title is-size-1">Frank Malafronte</h1>
+              <p className="subtitle is-size-3">
+                Hi! I'm a full stack developer. I enjoy
+                building software with tools like React, Redux, Gatsby, GraphQL, & Puppeteer. 
+              </p>
+              <Email />
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
-  </header>
+  </section>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header

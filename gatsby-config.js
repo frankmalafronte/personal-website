@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Frank Malafronte Portfolio`,
+    description: `Frank Malafronte's Portfolio Website`,
+    author: `Frank Malafronte <frankamalafronte@gmail.com>`,
+    keywords: `Web developer, Web, Developer, Full stack, React, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Node, pulse-code`,
+        github: 'https://github.com/frankmalafronte',
+        linkedin: 'https://www.linkedin.com/in/frankmalafronte',
+        gatsby: 'https://www.gatsbyjs.org/',
+        bulma: 'https://bulma.io/',
+        siteUrl: 'https://frankmal.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +21,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
