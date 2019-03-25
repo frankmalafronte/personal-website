@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import Email from './email'
+import Email from './Email'
 
 const Header = () => (
   <section className="hero gradientBg is-halfheight-with-navbar">
