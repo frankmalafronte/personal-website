@@ -17,7 +17,7 @@ const Stacktimer = () => (
         </Link>
         <div className="column is-three-quarters is-size-5">
           <h1 className="title is-size-1 is-centered">Stacktimer</h1>
-         Hello
+          Stacktimer is a time management application I bu
           <br />
           <br />
           <a className="text is-size-5" href="stacltimer.herokupapp.com">
