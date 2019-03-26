@@ -25,16 +25,13 @@ const DFS = () => (
         I chose to work on this project in order to learn web scraping, the process
         of extracting data from websites. Sports data, while widely available on the internet,
         is not available via an API. To create my own database, I built a recursive web 
-        scraper the needed data. I also coded a cron job that will scrape each new day's data.
+        scraper the needed data. I also coded a cron job that will scrape each new day's data
           <br />
           <br />
           <a className="text is-size-5" href="http://dfs-charts.herokuapp.com">
             dfs-charts.herokuapp.com
           </a>
           <br />
-          <a className="text is-size-5" href>
-            Source Code
-          </a>
           <a className="text is-size-5" href='https://github.com/frankmalafronte/DFS-Charts/blob/master/server/multiDayScaper.js'>
             Source code for Recursive Scraper
           </a>
