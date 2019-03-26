@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "frankmal.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Frank Malafronte's Personal Website",
+  "version": "1.0",
+  "author": "Frank Malafronte <frankamaafronte@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.4",
     "gatsby": "^2.2.11",
