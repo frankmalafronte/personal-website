@@ -21,7 +21,8 @@ const DFS = () => (
          can search for any active player using an search bar featuing auto 
          suggest, then view multiple data points and graphs to help them 
          choose the best lineups.
-
+         <br />
+        <br />
         I chose to work on this project in order to learn web scraping, the process
         of extracting data from websites. Sports data, while widely available on the internet,
         is not available via an API. To create my own database, I built a recursive web 

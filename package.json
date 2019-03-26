@@ -2,8 +2,8 @@
   "name": "frankmal.com",
   "private": true,
   "description": "Frank Malafronte's Personal Website",
-  "version": "1.0",
-  "author": "Frank Malafronte <frankamaafronte@gmail.com>",
+  "version": "0.1.0",
+  "author": "Frank <frankmalafronte@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.4",
     "gatsby": "^2.2.11",
