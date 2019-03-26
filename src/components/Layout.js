@@ -4,14 +4,14 @@ import './style.scss';
 import Helmet from './Helmet';
 import Header from './Header';
 import Links from './Links';
-// import Footer from './footer';
+import Footer from './Footer';
 
 const Layout = ({ children }) => (
   <div>
     <Helmet />
     <Header />
     <Links />
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 

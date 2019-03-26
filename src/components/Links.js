@@ -18,7 +18,8 @@ const Midsection = () => (
                     <h2 className="title is-size-4">DFS Charts</h2>
                   </Link>
                   <p className="subtitle is-size-5">
-                  A friend of mine wanted to vis
+                  A suite of helpful data for playing Daily Fantasy sports 
+                  using a custom recursive web scraper.
                   </p>
                 </div>
               </div>

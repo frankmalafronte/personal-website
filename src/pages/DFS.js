@@ -17,7 +17,15 @@ const DFS = () => (
         </Link>
         <div className="column is-three-quarters is-size-5">
           <h1 className="title is-size-1 is-centered">DFS Charts</h1>
-         Hello
+         DFS Charts is a data analysis tool for Daily Fantasy Sports. Users
+         can search for any active player using an search bar featuing auto 
+         suggest, then view multiple data points and graphs to help them 
+         choose the best lineups.
+
+        I chose to work on this project in order to learn web scraping, the process
+        of extracting data from websites. Sports data, while widely available on the internet,
+        is not available via an API. To create my own database, I built a recursive web 
+        scraper the needed data. I also coded a cron job that will scrape each new day's data.
           <br />
           <br />
           <a className="text is-size-5" href="http://dfs-charts.herokuapp.com">
@@ -25,8 +33,13 @@ const DFS = () => (
           </a>
           <br />
           <a className="text is-size-5" href>
-            src code
+            Source Code
           </a>
+          <a className="text is-size-5" href='https://github.com/frankmalafronte/DFS-Charts/blob/master/server/multiDayScaper.js'>
+            Source code for Recursive Scraper
+          </a>
+          
+          
           
         </div>
       </div>
