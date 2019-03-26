@@ -28,7 +28,7 @@ const Stacktimer = () => (
           </a>
           <br />
           <a className="text is-size-5" href='https://github.com/frankmalafronte/Timer'>
-            src code
+            source code
           </a>
           
         </div>
