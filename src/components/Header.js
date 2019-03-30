@@ -15,8 +15,8 @@ const Header = () => (
                 Hi! I'm a full stack developer. I enjoy
                 building software with tools like React, Redux, Gatsby, GraphQL, & Puppeteer. 
               </p>
-              <Email />
               <Resume />
+              <Email />
             </div>
           </div>
         </article>
