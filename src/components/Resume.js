@@ -16,7 +16,7 @@ class Resume extends Component {
   render() {
     return (
       <div className="Email">
-       <a type = 'button' className ="button is-outlined is-primary is-large" download href="https://drive.google.com/uc?export=download&id=1JsNc2_PsIFyZV59lqJzIrPU9CZzm1Rbf">Download My Resume </a>
+       <a type = 'button' className ="button is-outlined is-primary is-large" download href="https://drive.google.com/uc?export=download&id=1JsNc2_PsIFyZV59lqJzIrPU9CZzm1Rbf">Download my resume </a>
       </div>
 
     );
