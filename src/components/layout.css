@@ -148,6 +148,7 @@ fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+
 legend {
   box-sizing: border-box;
   color: inherit;
@@ -615,6 +616,8 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

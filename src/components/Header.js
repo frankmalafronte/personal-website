@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.scss'
 import Email from './Email'
+import Resume from './Resume'
 
 const Header = () => (
   <section className="hero gradientBg is-halfheight-with-navbar">
@@ -15,6 +16,7 @@ const Header = () => (
                 building software with tools like React, Redux, Gatsby, GraphQL, & Puppeteer. 
               </p>
               <Email />
+              <Resume />
             </div>
           </div>
         </article>

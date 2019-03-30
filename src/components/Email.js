@@ -22,6 +22,7 @@ class Email extends Component {
             <button
               type="button"
               className="button is-outlined is-primary is-large"
+              
             >
               <FaRegSmile />
             </button>
