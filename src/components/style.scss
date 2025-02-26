@@ -1,6 +1,6 @@
 // Importing Bulma from node_modules
 
-@use 'bulma/bulma.sass' as *;
+@import "~bulma/bulma.scss";
 
 // Importing variables
 @import './variables.scss';
