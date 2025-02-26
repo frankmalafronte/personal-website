@@ -1,9 +1,9 @@
+// Importing Bulma from node_modules
+
+@use 'bulma/bulma.sass' as *;
 
 // Importing variables
 @import './variables.scss';
-
-// Importing Bulma from node_modules
-@import '~bulma/bulma.sass';
 
 body {
   font-family: $font;
