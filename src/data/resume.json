@@ -1,0 +1,80 @@
+{
+  "name": "Frank Malafronte",
+  "title": "Software Engineer in Test & AI Developer",
+  "contact": {
+    "location": "Ridgefield, CT",
+    "phone": "203-214-9746",
+    "email": "frankamalafronte@gmail.com",
+    "linkedin": "linkedin.com/in/frankmal/"
+  },
+  "summary": "Combining AI agent development with rigorous test automation to ship high-quality software faster. Building Claude-powered agents that autonomously contribute to automation codebases and deliver design QA feedback. Founded an internal Claude Skills marketplace at Subway to share custom AI plugins across the team. Deep background in quality engineering with expertise in backend, web, and mobile.",
+  "aiAgentWork": [
+    "Built a Claude Code agent that autonomously generates and commits automation code on overnight runs, reducing manual effort and expanding test coverage without human intervention.",
+    "Developed a Design QA agent using Claude that delivers real-time feedback on visual regressions and design inconsistencies, accelerating design review cycles.",
+    "Founded an internal Claude Skills marketplace at Subway, enabling the QA and engineering teams to build, share, and reuse custom AI plugins: a developer platform built from scratch."
+  ],
+  "technicalSkills": {
+    "aiAndAgents": ["Claude Code", "LangChain", "PyTorch", "Agent Workflows", "LLM Evaluation"],
+    "testAutomation": ["Playwright", "Selenium WebDriver", "WebdriverIO", "Puppeteer", "Jest", "Mocha", "Chai", "pytest", "Cucumber", "JMeter"],
+    "languages": ["Java", "JavaScript", "TypeScript", "Python"],
+    "mobileAndFrontend": ["React Native", "React", "Node.js"],
+    "devOpsAndTools": ["GitHub Actions", "Kubernetes", "Browserstack", "REST APIs", "Maven", "JIRA", "ADO"],
+    "certifications": ["ISTQB® Certified Tester Foundation Level (CTFL)"]
+  },
+  "experience": [
+    {
+      "company": "Subway",
+      "location": "Shelton, CT",
+      "title": "Senior Quality Mobile Engineer",
+      "start": "2025-11",
+      "end": null,
+      "bullets": [
+        "Own end-to-end quality strategy for Subway's React Native mobile app relaunch, a complete ground-up rewrite, including test planning, coverage design, and execution. National Launch on April 27th, 2026.",
+        "Design and deploy AI agents to improve testing workflows.",
+        "Manage offshore resources supporting localization testing across multiple markets.",
+        "Integrate test plans with issue tracking and project management software.",
+        "Create dashboards to track test coverage, defect rate, and other metrics.",
+        "Add test jobs to CI/CD pipelines to provide fast feedback."
+      ]
+    },
+    {
+      "company": "Northwestern Mutual",
+      "location": "New York, NY",
+      "title": "Software Test Engineer",
+      "start": "2021",
+      "end": "2025",
+      "bullets": [
+        "Streamlined deployment pipelines for an Experience API and built automated integration tests, reducing regression burden on each release.",
+        "Led migration of functional tests from a legacy regression repository into modernized Experience API pipelines, enabling automated quality gates for production deployments.",
+        "Developed and executed comprehensive test plans spanning functional, regression, integration, and performance testing.",
+        "Championed adoption of structured test planning across the QA org, improving cross-team collaboration and testing efficiency.",
+        "Worked closely with development teams to understand requirements and surface testability issues early in the development cycle."
+      ]
+    },
+    {
+      "company": "Northwestern Mutual",
+      "location": "New York, NY",
+      "title": "Associate Test Engineer",
+      "start": "2019",
+      "end": "2021",
+      "bullets": [
+        "Volunteered for expanded responsibilities including contributions to the Fact Finder product.",
+        "Collaborated with development teams to design, execute, and maintain manual and automated test cases.",
+        "Identified defects early and contributed to continuous improvement of testing processes and standards."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Emory University",
+      "location": "Atlanta, GA",
+      "degree": "Bachelor of Arts in History"
+    },
+    {
+      "institution": "Fullstack Academy",
+      "location": "New York, NY",
+      "program": "Software Engineering Immersive",
+      "format": "13-week intensive program"
+    }
+  ]
+}

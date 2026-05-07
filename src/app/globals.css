@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal: #22d0b2;
+  --teal-dark: #1ab89d;
+  --grey-dark: #363636;
+  --font: 'Barlow', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--grey-dark);
+  background: #fff;
+}
+
+a {
+  color: var(--grey-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--teal);
+}

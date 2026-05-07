@@ -1,0 +1,42 @@
+.section {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--teal);
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--grey-dark);
+  margin-bottom: 0.3rem;
+  transition: color 0.15s;
+}
+
+.card h2:hover {
+  color: var(--teal);
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}

@@ -9,6 +9,7 @@ const PROJECTS = [
     title: "Design QA",
     description: "An Agent to perform a visual checkout",
     videoId: "qh27cIgD83g",
+    repoUrl: "https://github.com/frankmalafronte/qaSkills",
   },
 ];
 
@@ -21,6 +22,9 @@ export default function Projects() {
           <div key={p.title} className={styles.card}>
             <h2>{p.title}</h2>
             <p>{p.description}</p>
+            {p.repoUrl && (
+              <a href={p.repoUrl} target="_blank" rel="noopener noreferrer">View Repo</a>
+            )}
             {p.videoId && isRealVideoId(p.videoId) && (
               <iframe
                 width="100%"
